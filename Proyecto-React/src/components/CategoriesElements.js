@@ -1,6 +1,28 @@
 import styled from 'styled-components';
 
-//import {  } from "../img&icons";
+
+export const CategoryImg = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    
+    & img{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    & h3{
+        display: flex;
+        padding: 12px 47px;
+        justify-content: center;
+        align-items: center;
+        background: #593A2E;
+        color: #fff;
+    }
+`;
+
 
 export const CategoryContainer = styled.section`
     display: flex;
@@ -18,15 +40,16 @@ export const CategoryContainer = styled.section`
 
 export const CategoriesWrapper = styled.div`
     display: flex;
-    //width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 `;
 
 export const CategoryCardContainer = styled.div`
     display: flex;
-    height: 299px;
-    width: 248px;
+    max-width: 250px;
     padding: 12px;
     flex-direction: column;
     justify-content: center;
@@ -36,10 +59,18 @@ export const CategoryCardContainer = styled.div`
     background: #BFA893;
 `;
 
-export const Category = styled.div`
-    background: url("../assets/img&icons/pic_dog.jpg") cover/center no-repeat;
-    
-`;
-
 export const CategoryButton = styled.button`
+    display: flex;
+    width: 95%;
+    height: 41px;
+    padding: 15px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Monserrat;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #344029;
+    color: #fff;
+    cursor: pointer;
 `;

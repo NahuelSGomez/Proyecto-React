@@ -51,7 +51,7 @@ export const SearchTop = styled.div`
 export const HeroBottom = styled.div`
     display: flex;
     width: 100%;
-    gap: 20px;
+    gap: 40px;
 
     & img{
         width: 55%;
@@ -81,11 +81,10 @@ export const HeroInfo = styled.div`
         line-height: normal;
         width: 100%;
         font-size: 20px;
-        //letter-spacing: .1em;
         text-align: justify;
 
         @media (min-width: 1200px) {
-            font-size: 23px;
+            font-size: 24px;
         }
 
         @media (min-width: 800px){

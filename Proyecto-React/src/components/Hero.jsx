@@ -4,7 +4,7 @@ import { ContainerHero, HeroTop, LogoHero, SearchTop, HeroBottom, HeroInfo, Hero
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-import Logo from '../img&icons/Ellipse 1.svg';
+import Logo from '../img&icons/perro_logo.svg';
 import ImgHero from '../img&icons/Rectangle 9.svg'
 
 export const Hero = () => {

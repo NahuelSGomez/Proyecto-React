@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { ContainerCardProduct } from './FeaturedElements';
 
 export const ContainerProducts = styled.section`
     display: flex;
@@ -15,7 +14,6 @@ export const ContainerProducts = styled.section`
 
 export const ProductWrapper = styled.div`
     display: flex;
-    max-width: 1200px;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -23,10 +21,6 @@ export const ProductWrapper = styled.div`
     flex-wrap: wrap;
 `;
 
-export const Card = styled(ContainerCardProduct)`
-    min-width: 346px;
-    height: 356px;
-`;
 
 export const ShowMoreBtn = styled.button`
     display: flex;

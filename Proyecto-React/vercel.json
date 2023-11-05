@@ -1,5 +1,3 @@
 {
-    "rewrites": [
-        {"source": "/(.*)", "destination": "/Proyecto-React/index.html"}
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }|]
 }
