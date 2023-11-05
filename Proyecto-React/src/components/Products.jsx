@@ -10,7 +10,7 @@ import Gretel from '../img&icons/gretel-cat.jpg'
 
 export const Products = () =>{
     return (
-            <ContainerProducts>
+            <ContainerProducts id="product-section" >
                 <h3>Todos los productos</h3>
                 <ProductWrapper>
                     <ContainerCardProduct>

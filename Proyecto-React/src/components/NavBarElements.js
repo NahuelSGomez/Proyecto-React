@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import MenuIcon from '@mui/icons-material/Menu';
-
 export const Container = styled.header`
     width: 100%;
     height: 56px;
@@ -87,12 +85,12 @@ export const CartShop = styled.button`
     font-size: 14px;
 `;
 
-export const BarsMenu = styled(MenuIcon)`
+export const BarsMenu = styled.div`
     display: none;
+    cursor: pointer;
 
     @media (max-width: 930px){
         display: block;
-        font-size: 1.9rem;
     }
 `;
 

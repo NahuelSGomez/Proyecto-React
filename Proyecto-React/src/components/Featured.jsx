@@ -8,7 +8,7 @@ import Gretel from '../img&icons/gretel-cat.jpg'
 
 export const Featured = () =>{
     return(
-        <ContainerFeatured>
+        <ContainerFeatured id="featured-section">
             <h3>Productos destacados</h3>
             <CardWrapper>
                 <ContainerCardProduct>

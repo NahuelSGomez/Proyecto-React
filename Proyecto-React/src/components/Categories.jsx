@@ -8,7 +8,7 @@ import PicMore from '../img&icons/pic_more.jpg'
 
 export const Categories = () =>{
     return (
-        <CategoryContainer>
+        <CategoryContainer id="categories-section" >
             <h3>Categorias</h3>
             
             <CategoriesWrapper>

@@ -3,6 +3,7 @@ import React from 'react';
 import { Container, Wrapper, LogoContainer, Menu, MenuItem, MenuItemLink, CartShop, BarsMenu } from './NavBarElements'
 
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import MenuIcon from '@mui/icons-material/Menu'
 
 export const NavBar = () => {
     return (
@@ -14,13 +15,13 @@ export const NavBar = () => {
 
                 <Menu>
                     <MenuItem>
-                        <MenuItemLink>
+                        <MenuItemLink href="#categories-section">
                             Categorias
                         </MenuItemLink>
                     </MenuItem>
                     
                     <MenuItem>
-                        <MenuItemLink>
+                        <MenuItemLink href="#featured-section" >
                             Productos destacados
                         </MenuItemLink>
                     </MenuItem>
@@ -31,7 +32,9 @@ export const NavBar = () => {
                         </MenuItemLink>
                     </MenuItem>
 
-                    <BarsMenu />
+                    <BarsMenu>
+                        <MenuIcon style={{ fontSize: '400x' }} />
+                    </BarsMenu>
 
                     <CartShop>
                         <ShoppingCartIcon></ShoppingCartIcon>
